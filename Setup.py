@@ -19,7 +19,7 @@ def get_requirements()->List[str]:
             for line in lines:
                 requirement = line.strip()
                 ## ignore empty line and -e.
-                if requirement and requirement!= '-e.':
+                if requirement and requirement != '-e.':
                     requirement_list.append(requirement)
     except FileNotFoundError:
         print("Requirements.txt file is not available.")
