@@ -151,12 +151,7 @@ class ModelTrainer:
         return model_trainer_artifact
 
 
-        
 
-
-       
-    
-    
         
     def initiate_model_trainer(self)->ModelTrainerArtifact:
         try:
